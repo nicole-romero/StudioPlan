@@ -1,11 +1,3 @@
-<header class="page-header" role="banner">
-      <h1 class="project-name">StudioPlan</h1>
-      <h2 class="project-tagline"></h2>
-      
-        <a href="https://github.com/nicole-romero/StudioPlan" class="btn">Getting Started</a>
-      
-      
-    </header>
 ## StudioPlan
 You can use the [editor on GitHub](https://github.com/nicole-romero/StudioPlan/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
