@@ -1,7 +1,7 @@
 remote_theme: tuur29/pages-themes-cayman
 gem "github-pages", group: :jekyll_plugins
 title: [StudioPlan]
-description: [A short description of site's purpose]
+description: [Peronsalized Buissness Plans]
 show_downloads: ["true" or "false" to indicate whether to provide a download URL]
 google_analytics: [Your Google Analytics tracking ID]
 google_analytics_anonymize: false
@@ -23,4 +23,4 @@ buttons:
       tar_url: http://example.com/
       tar_title: Title
       tar_hide: true
-      github_hide: true # hides "View on Github"
+      github_hide: true # hides "Getting Started"
