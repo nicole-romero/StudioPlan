@@ -1,95 +1,272 @@
-<h1>Updated for multi-gender dark action, oorah!</h1>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Simple web Development Template</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.navbar {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: sticky;
+			top: 0;
+			cursor: pointer;
+		}
+
+		.background {
+			background: black;
+			background-blend-mode: darken;
+			background-size: cover;
+		}
+
+		.nav-list {
+			width: 70%;
+			display: flex;
+			align-items: center;
+		}
+
+		.logo {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.logo img {
+			width: 180px;
+			border-radius: 50px;
+		}
+
+		.nav-list li {
+			list-style: none;
+			padding: 26px 30px;
+		}
+
+		.nav-list li a {
+			text-decoration: none;
+			color: white;
+		}
+
+		.nav-list li a:hover {
+			color: grey;
+		}
+
+		.rightnav {
+			width: 30%;
+			text-align: right;
+		}
+
+		#search {
+			padding: 5px;
+			font-size: 17px;
+			border: 2px solid grey;
+			border-radius: 9px;
+		}
+
+		.firstsection {
+			background-color: green;
+			height: 400px;
+		}
+
+		.secondsection {
+			background-color: blue;
+			height: 400px;
+		}
+
+		.box-main {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: black;
+			max-width: 80%;
+			margin: auto;
+			height: 80%;
+		}
+
+		.firsthalf {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.secondhalf {
+			width: 30%;
+		}
+
+		.secondhalf img {
+			width: 70%;
+			border: 4px solid white;
+			border-radius: 150px;
+			display: block;
+			margin: auto;
+		}
+
+		.text-big {
+			font-family: 'Piazzolla', serif;
+			font-weight: bold;
+			font-size: 35px;
+		}
+
+		.text-small {
+			font-size: 18px;
+		}
+
+		.btn {
+			padding: 8px 20px;
+			margin: 7px 0;
+			border: 2px solid white;
+			border-radius: 8px;
+			background: none;
+			color: white;
+			cursor: pointer;
+		}
+
+		.btn-sm {
+			padding: 6px 10px;
+			vertical-align: middle;
+		}
+
+		.section {
+			height: 400px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			max-width: 90%;
+			margin: auto;
+		}
+
+		.section-Left {
+			flex-direction: row-reverse;
+		}
+
+		.paras {
+			padding: 0px 65px;
+		}
+
+		.thumbnail img {
+			width: 250px;
+			border: 2px solid black;
+			border-radius: 26px;
+			margin-top: 19px;
+		}
+
+		.center {
+			text-align: center;
+		}
+
+		.text-footer {
+			text-align: center;
+			padding: 30px 0;
+			font-family: 'Ubuntu', sans-serif;
+			display: flex;
+			justify-content: center;
+			color: white;
+		}
+	</style>
+</head>
+
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src= "logo.png">
+			</div>
+			<li><a href="#web">Web Technology</a></li>
+			<li><a href="#program">C Programming</a></li>
+			<li><a href="#course">Courses</a></li>
+		</ul>
+
+		<div class="rightNav">
+			<input type="text" name="search" id="search">
+			<button class="btn btn-sm">Search</button>
+		</div>
+	</nav>
+
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="web">Web Technology</h1>
+				<p class="text-small">
+					HTML stands for HyperText Markup Language.
+					It is used to design web pages using a markup
+					language. HTML is the combination of Hypertext
+					and Markup language. Hypertext defines the
+					link between the web pages. A markup language
+					is used to define the text document within tag
+					which defines the structure of web pages.
+					HTML is a markup language that is used by the
+					browser to manipulate text, images, and other
+					content to display it in the required format.
+				</p>
 
 
-<div class="lightpage">
-  
-<div class="sexytabs">
-  
-  <ul>
-    <li><a href="#Beyonce">
-      <span>Bootylicious</span></a></li>
-    <li><a href="#Fergie">
-      <span>Fergalicious</span></a></li>
-    <li><a href="#Rihanna">
-      <span>Umbrella?</span></a></li>
-  </ul>
-  
-  <div class="contents">
-  <div id="Beyonce">
-    <h2>Beyonce</h2>
-    <img src="http://thumbs.hotnewhiphop.com/public/article/600_1359954424_17651c4dc1a8d1c5ba1c472544c51114.jpeg">
-    <p>American Apparel locavore iPhone wayfarers put a bird on it.  Whatever McSweeney's Banksy letterpress Marfa.  Drinking vinegar PBR synth, tote bag kale chips typewriter shabby chic mlkshk.  Twee Wes Anderson semiotics Blue Bottle Tumblr, locavore ennui squid.  Blog tofu paleo try-hard mustache bicycle rights DIY.  Forage quinoa DIY master cleanse.  Freegan tote bag squid keffiyeh, sriracha try-hard tousled gentrify McSweeney's pickled pork belly Neutra literally.</p>
+			</div>
+		</div>
+	</section>
 
-    <p>Actually synth Thundercats, pug direct trade wayfarers Schlitz. Gluten-free beard pickled wolf, vinyl cliche paleo authentic brunch Blue Bottle chambray keffiyeh Marfa 8-bit post-ironic. Lo-fi fixie occupy small batch. Salvia keytar cliche, occupy Brooklyn disrupt Helvetica gluten-free art party stumptown freegan gastropub cred. Freegan Truffaut keffiyeh Terry Richardson lo-fi, hoodie ennui. Readymade deep v selvage, tote bag church-key authentic flexitarian craft beer four loko biodiesel. VHS hashtag small batch drinking vinegar, wolf distillery YOLO post-ironic narwhal sustainable.</p>
-    
-  </div>
-    
-  <div id="Fergie">
-    <h2>Fergie</h2>
-    <img src="https://si0.twimg.com/profile_images/3282720177/1cfde8d5260721552f31a26cff5ccc22.png">
-    <p>Bushwick semiotics meh artisan, whatever gastropub pop-up narwhal Cosby sweater stumptown VHS synth kogi art party McSweeney's.  Helvetica locavore actually cray paleo.  +1 PBR gentrify, direct trade  narwhal tattooed polaroid Helvetica readymade wolf Tumblr authentic try-hard hella.  Try-hard 90's gentrify art party.  Helvetica Intelligentsia +1, banjo try-hard tote bag organic fashion axe gluten-free chambray stumptown Echo Park beard.  Craft beer DIY beard, roof party tofu plaid sustainable Tonx.  Small batch letterpress salvia sartorial deep v ugh, High Life aesthetic hoodie Neutra Vice freegan flannel.</p>
-    
-  </div>
-    
-  <div id="Rihanna">
-    <h2>Rihanna</h2>
-    <img src="http://s1.evcdn.com/images/block/I0-001/001/867/008-9.jpeg_/rihanna-08.jpeg">
-    <p>Chambray typewriter Odd Future, cliche Wes Anderson High Life Banksy cred bespoke Intelligentsia ethnic. YOLO gluten-free blog kale chips. Cliche Shoreditch church-key direct trade banjo ugh, forage pug meh typewriter yr chillwave wayfarers small batch. Trust fund Carles forage disrupt photo booth. Truffaut lo-fi Schlitz, Blue Bottle hoodie synth Thundercats. Actually cliche put a bird on it kitsch, ethical Thundercats synth drinking vinegar gluten-free lomo try-hard direct trade. Chambray viral you probably haven't heard of them salvia, ugh Pitchfork Terry Richardson selvage master cleanse.</p>
- 
-  </div>
-  </div>
-</div>
-
-</div>
+	<section class="secondsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="program">
+					C Programming
+				</h1>
+				<p class="text-small">
+					C is a procedural programming language. It
+					was initially developed by Dennis Ritchie
+					as a system programming language to write
+					operating system. The main features of C
+					language include low-level access to memory,
+					simple set of keywords, and clean style,
+					these features make C language suitable for
+					system programming like operating system or
+					compiler development.
+				</p>
 
 
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="paras">
+			<h1 class="sectionTag text-big">Java</h1>
+
+			<p class="sectionSubTag text-small">
+				Java has been one of the most popular
+				programming language for many years.
+				Java is Object Oriented. However it is
+				not considered as pure object oriented
+				as it provides support for primitive
+				data types (like int, char, etc) The
+				Java codes are first compiled into byte
+				code (machine independent code). Then
+				the byte code is run on Java Virtual
+				Machine (JVM) regardless of the
+				underlying architecture.
+			</p>
 
 
+		</div>
+
+		<div class="thumbnail">
+			<img src= "img.png" alt="laptop image">
+		</div>
+	</section>
+
+	<footer class="background">
+		<p class="text-footer">
+			Copyright ©-All rights are reserved
+		</p>
 
 
-<div class="darkpage">
+	</footer>
+</body>
 
-<div class="sexytabs dark">
-  
-  <ul>
-    <li><a href="#Gosling">
-      <span>Jottings</span></a></li>
-    <li><a href="#Timberlake">
-      <span>Benefits</span></a></li>
-    <li><a href="#Lautner">
-      <span>Furry?</span></a></li>
-  </ul>
-  
-  <div class="contents">
-  <div id="Gosling">
-    <h2>Gosling</h2>
-    <img src="http://imworld.aufeminin.com/story/20130805/ryan-gosling-56940_s96cx345cy200.jpg">
-    <p>American Apparel locavore iPhone wayfarers put a bird on it.  Whatever McSweeney's Banksy letterpress Marfa.  Drinking vinegar PBR synth, tote bag kale chips typewriter shabby chic mlkshk.  Twee Wes Anderson semiotics Blue Bottle Tumblr, locavore ennui squid.  Blog tofu paleo try-hard mustache bicycle rights DIY.  Forage quinoa DIY master cleanse.  Freegan tote bag squid keffiyeh, sriracha try-hard tousled gentrify McSweeney's pickled pork belly Neutra literally.</p>
-
-    <p>Actually synth Thundercats, pug direct trade wayfarers Schlitz. Gluten-free beard pickled wolf, vinyl cliche paleo authentic brunch Blue Bottle chambray keffiyeh Marfa 8-bit post-ironic. Lo-fi fixie occupy small batch. Salvia keytar cliche, occupy Brooklyn disrupt Helvetica gluten-free art party stumptown freegan gastropub cred. Freegan Truffaut keffiyeh Terry Richardson lo-fi, hoodie ennui. Readymade deep v selvage, tote bag church-key authentic flexitarian craft beer four loko biodiesel. VHS hashtag small batch drinking vinegar, wolf distillery YOLO post-ironic narwhal sustainable.</p>
-    
-  </div>
-    
-  <div id="Timberlake">
-    <h2>Timberlake</h2>
-    <img src="http://imalbum.aufeminin.com/album/D20121228/894767_Z5RAJN1HEXWRQGYCFUTKD8AVQ8ZMXS_justin-timberlake_H124540_S.jpg">
-    <p>Bushwick semiotics meh artisan, whatever gastropub pop-up narwhal Cosby sweater stumptown VHS synth kogi art party McSweeney's.  Helvetica locavore actually cray paleo.  +1 PBR gentrify, direct trade  narwhal tattooed polaroid Helvetica readymade wolf Tumblr authentic try-hard hella.  Try-hard 90's gentrify art party.  Helvetica Intelligentsia +1, banjo try-hard tote bag organic fashion axe gluten-free chambray stumptown Echo Park beard.  Craft beer DIY beard, roof party tofu plaid sustainable Tonx.  Small batch letterpress salvia sartorial deep v ugh, High Life aesthetic hoodie Neutra Vice freegan flannel.</p>
-    
-  </div>
-    
-  <div id="Lautner">
-    <h2>Lautner</h2>
-    <img src="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBvPhI8Zh8E1VfV&w=155&h=114&url=http%3A%2F%2Ffiles-cdn.formspring.me%2Fprofile%2F20110812%2Fn4e45d53be5a76_medium.jpg">
-    <p>Chambray typewriter Odd Future, cliche Wes Anderson High Life Banksy cred bespoke Intelligentsia ethnic. YOLO gluten-free blog kale chips. Cliche Shoreditch church-key direct trade banjo ugh, forage pug meh typewriter yr chillwave wayfarers small batch. Trust fund Carles forage disrupt photo booth. Truffaut lo-fi Schlitz, Blue Bottle hoodie synth Thundercats. Actually cliche put a bird on it kitsch, ethical Thundercats synth drinking vinegar gluten-free lomo try-hard direct trade. Chambray viral you probably haven't heard of them salvia, ugh Pitchfork Terry Richardson selvage master cleanse.</p>
- 
-  </div>
-  </div>
-</div>
-  
-  
-</div>
-
-
-
-
-Resources
+</html>
